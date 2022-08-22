@@ -62,12 +62,30 @@ header nav li {
 }
 
 section { 
-    width: 100%;
-    display: block;
+    width: 75%;
+    display: inline-block;
 }
 
 section p {
     margin: 50px;
+}
+
+section img {
+    max-height: 200px;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 1px solid #ddd; 
+    border-radius: 4px;  
+    padding: 5px; 
+    max-height: 150px; 
+    }
+
+section img:hover {
+    box-shadow: 5px 5px 5px rgb(69, 69, 69);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 section .categories {
@@ -88,28 +106,26 @@ section .categories {
     margin: 20px;
 }
 
-section .project-links img {
-    max-height: 200px;
-    border-radius: 25px;
-    margin-left: 5px;
-    margin-top: 5px;
-    border: 1px solid #ddd; 
-    border-radius: 4px;  
-    padding: 5px; 
-    max-height: 150px; 
-    }
-
-section .project-links img:hover {
-    box-shadow: 5px 5px 5px rgb(69, 69, 69);
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+aside { 
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgb(164, 24, 24);
+    box-shadow: 10px 5px 5px rgb(69, 69, 69);
+    border-radius: 10px;
 }
 
-section #contact-me img {
+aside img {
     max-height: 100px;
     margin-top: 50px;
-    border-style: solid;
+    border-style: hidden;
     border-radius: 10px;
 }
 
