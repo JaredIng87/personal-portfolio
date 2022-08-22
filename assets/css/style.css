@@ -8,6 +8,33 @@ body {
     background-color: antiquewhite;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 300%;
+    font-style: italic;
+    text-shadow: 2px 2px rgb(69, 69, 69);
+}
+
+h2 { 
+    font-size: 250%;
+    line-height: 150%;
+    border-bottom-style: solid;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(69, 69, 69);
+}
+
+h3 {
+    font-size: 150%
+}
+
 header {
     display: inline-block;
     width: 100%;
@@ -18,12 +45,6 @@ header {
     box-shadow: 0px 5px 5px rgb(69, 69, 69);
     border-bottom-left-radius: 10px; 
     border-bottom-right-radius: 10px;
-}
-
-header h1 {
-    font-size: 300%;
-    font-style: italic;
-    text-shadow: 2px 2px rgb(69, 69, 69);
 }
 
 header nav {
@@ -40,25 +61,9 @@ header nav li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 section { 
     width: 100%;
     display: block;
-}
-
-section h2 { 
-    font-size: 300%;
-    line-height: 150%;
-    border-bottom-style: solid;
-    color: black;
 }
 
 section p {
@@ -68,7 +73,7 @@ section p {
 section .categories {
     margin: 20px;
     padding: 20px;
-    height: 350px;
+    height:fit-content;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     background-color:rgb(163, 24, 24);
@@ -79,11 +84,11 @@ section .categories {
 
 .project-links {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
     margin: 20px;
 }
 
-section img {
+section .project-links img {
     max-height: 200px;
     border-radius: 25px;
     margin-left: 5px;
@@ -94,11 +99,18 @@ section img {
     max-height: 150px; 
     }
 
-section img:hover {
+section .project-links img:hover {
     box-shadow: 5px 5px 5px rgb(69, 69, 69);
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 5px;
+}
+
+section #contact-me img {
+    max-height: 100px;
+    margin-top: 50px;
+    border-style: solid;
+    border-radius: 10px;
 }
 
 footer { 
@@ -106,10 +118,6 @@ footer {
     clear: both;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
 
 
