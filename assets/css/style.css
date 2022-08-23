@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: rgb(93, 143, 213);
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 h1 {
@@ -24,11 +24,11 @@ h1 {
 }
 
 h2 { 
-    font-size: 250%;
+    font-size: 200%;
     line-height: 150%;
     border-bottom-style: solid;
     color: rgb(0, 0, 0);
-    text-shadow: 2px 2px rgb(69, 69, 69);
+    text-shadow: 2px 2px rgb(150, 150, 150);
 }
 
 h3 {
@@ -39,8 +39,8 @@ header {
     display: inline-block;
     width: 100%;
     padding: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(100, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(rgb(47, 53, 179), rgb(11, 11, 75));
     color: rgb(255, 255, 255);
     box-shadow: 0px 5px 5px rgb(69, 69, 69);
     border-bottom-left-radius: 10px; 
@@ -51,7 +51,6 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     list-style-type: none;
 }
@@ -88,14 +87,14 @@ section img:hover {
     margin-bottom: 5px;
 }
 
-section .categories {
+.categories {
     margin: 20px;
     padding: 20px;
     height:fit-content;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    background-color:rgb(163, 24, 24);
-    color: #ffffff;
+    background-color:antiquewhite;
+    color: #000000;
     box-shadow: 10px 5px 5px rgb(69, 69, 69);
     border-radius: 10px;
 }
@@ -106,20 +105,11 @@ section .categories {
     margin: 20px;
 }
 
-aside { 
-    display: inline-block;
+aside {
     text-align: center;
-    margin: 20px;
-    padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: fit-content;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    background-color: rgb(164, 24, 24);
-    box-shadow: 10px 5px 5px rgb(69, 69, 69);
-    border-radius: 10px;
 }
 
 aside img {
