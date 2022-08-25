@@ -1,28 +1,35 @@
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
     padding: 0;
     margin: 0;
 }
 
+/*sets background color and font of main body*/
 body {
     background-color: rgb(93, 143, 213);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*sets color of hyperlinks*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*sets font size of paragraphs*/
 p {
     font-size: 20px;
 }
 
+/*sets font size and style of 'h1'*/
 h1 {
     font-size: 300%;
     font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-shadow: 2px 2px rgb(69, 69, 69);
 }
 
+/*sets font size and style of 'h2'*/
 h2 { 
     font-size: 200%;
     line-height: 150%;
@@ -31,15 +38,16 @@ h2 {
     text-shadow: 2px 2px rgb(150, 150, 150);
 }
 
+/*sets font size of 'h3'*/
 h3 {
     font-size: 150%
 }
 
+/*sets size and display of header*/
 header {
     display: inline-block;
     width: 100%;
     padding: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: linear-gradient(rgb(47, 53, 179), rgb(11, 11, 75));
     color: rgb(255, 255, 255);
     box-shadow: 0px 5px 5px rgb(69, 69, 69);
@@ -47,6 +55,7 @@ header {
     border-bottom-right-radius: 10px;
 }
 
+/*sets position of nave links*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -60,38 +69,22 @@ header nav li {
     margin-left: 25px;
 }
 
+/*sets size and display of main section*/
 section { 
     width: 75%;
     display: inline-block;
 }
 
+/*sets margin for section paragraphs*/
 section p {
     margin: 50px;
 }
 
-section img {
-    max-height: 200px;
-    border-radius: 25px;
-    margin-left: 5px;
-    margin-top: 5px;
-    border: 1px solid #ddd; 
-    border-radius: 4px;  
-    padding: 5px; 
-    max-height: 150px; 
-    }
-
-section img:hover {
-    box-shadow: 5px 5px 5px rgb(69, 69, 69);
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
-}
-
+/*sets size and display of category windows*/
 .categories {
     margin: 20px;
     padding: 20px;
     height:fit-content;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     background-color:antiquewhite;
     color: #000000;
@@ -99,12 +92,60 @@ section img:hover {
     border-radius: 10px;
 }
 
-.project-links {
-    display: flex;
-    justify-content: space-evenly; 
+/*sets size and display of 'self' image in about me section*/
+#about-me img {
+    max-height: 100px;
+    border-style: hidden;
+    border-radius: 10px;
+    float: left;
+    clear: both;
     margin: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
+/*sets margin and border for images in 'works' category*/
+#works img {
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 1px solid black;  
+    }
+
+/*sets margin and shadow to create motion effect on image hover in 'works' category*/
+#works img:hover {
+    box-shadow: 5px 5px 5px rgb(69, 69, 69);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+/*sets display and margin for 'html/css refactor' portion*/
+#first-project {
+    display: block;
+    margin: 10px;
+}
+
+/*sets size of 'html/css refactor' image*/
+#first-project img {
+    max-height: 250px;
+}
+
+/*creates flex display for remaining project links*/
+.project-links {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px;
+}
+
+/*sets size and display of remaining project link images*/
+.project-links img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+}
+
+/*sets size and position of 'aside'*/
 aside {
     text-align: center;
     clear: both;
@@ -112,19 +153,21 @@ aside {
     width: 20%;
 }
 
+/*sets size and border of images in 'aside'*/
 aside img {
     max-height: 100px;
     margin-top: 50px;
     border-style: hidden;
     border-radius: 10px;
 }
-
+/*sets size and font of 'footer'*/
 footer { 
     padding: 30px;
     clear: both;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
+
 
 
 
