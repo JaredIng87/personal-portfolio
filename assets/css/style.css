@@ -103,7 +103,8 @@ section p {
     max-height: 115px;
     float: left;
     clear: both;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left:50px;
     border-radius: 50%;
     border: 1px solid black;
     box-shadow: 2px 2px 2px rgb(69, 69, 69);
